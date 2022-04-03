@@ -67,18 +67,19 @@ body{
         top:8vh;
         background-color: black;
         color: white;
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition:transform 0.2s ease-in;
     }
     .nav-links a{
         color: white;
     }
     .nav-links li{
         /* opacity: 0; */
+        
     }
     .burger{
         display: block;
@@ -87,6 +88,7 @@ body{
 
 .nav-active{
     transform: translateX(0%);
+    display: flex;
 
 }
 

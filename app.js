@@ -14,13 +14,14 @@ burger.addEventListener('click',function(){
 
         }
         else{
-            link.style.animation=`navLinkFade 0.5s ease forwords ${index/5 + 0.3}s`;
+            link.style.animation=` navLinkFade 0.5s ease forwords ${index/5 + 0.3}s`;
         }
      
         // console.log(index / 5)
 
         
-    });
+    }) ;
+
 
     // Burger Animation
     burger.classList.toggle('toggle');
@@ -32,5 +33,6 @@ burger.addEventListener('click',function(){
 
 const app=function(){
    navSlide();
+   
 }
 app();
